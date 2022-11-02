@@ -112,6 +112,19 @@ div.about-us-img{
     height: 100px;
 }
 
+.violet-free{
+    background-color: #9792e4;
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+}
+
+div.free{
+    background-color: aquamarine;
+    width: 90%;
+    margin: 0 auto;
+    height: 60px;
+}
+
 
 
 
@@ -145,6 +158,12 @@ div.about-us-img{
     }
     div.about-us{
         flex-direction: row;
+    }
+    div.free{
+        background-color: aquamarine;
+        width: 50%;
+        margin: 0 auto;
+        height: 60px;
     }
 }
 /* DESKTOP */
