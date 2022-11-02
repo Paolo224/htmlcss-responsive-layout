@@ -60,7 +60,8 @@ div.card{
 .violet{
     background-color: #9792e4;
     margin-top: 1.5rem;
-    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
 }
 
 div.card-violet{
@@ -76,9 +77,29 @@ div.card-violet{
 div.testimonial{
     background-color: #9792e4;
     text-align: center;
-    margin: 1rem 0;
+    margin-bottom: 1rem;
     flex-direction: column;
 }
+
+h3.benefit{
+    text-align: center;
+}
+
+div.benefit{
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+div.benefit-row{
+    flex-direction: column;
+}
+
+
+
+
+
 
 /*! RESPONSIVE */
 /* DESKTOP */
@@ -93,6 +114,10 @@ div.testimonial{
     }
     div.card-violet{
         width: 50%;
+    }
+    div.benefit{
+        height: 55px;
+        width: calc(100% / 3);
     }
 }
 /* TABLET */
@@ -111,5 +136,13 @@ div.testimonial{
     div.testimonial{
         flex-direction: row;
         align-items: center;
+    }
+    div.benefit{
+        height: 55px;
+        width: calc(100% / 2);
+    }
+    div.benefit-row{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
