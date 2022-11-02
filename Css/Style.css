@@ -73,6 +73,12 @@ div.card-violet{
     justify-content: center;
 }
 
+div.testimonial{
+    background-color: #9792e4;
+    text-align: center;
+    margin: 1rem 0;
+    flex-direction: column;
+}
 
 /*! RESPONSIVE */
 /* DESKTOP */
@@ -101,5 +107,9 @@ div.card-violet{
     }
     div.cards>.card:first-child{
         width: calc((100% / 3) * 2);
+    }
+    div.testimonial{
+        flex-direction: row;
+        align-items: center;
     }
 }
