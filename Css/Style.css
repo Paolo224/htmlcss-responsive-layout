@@ -48,7 +48,7 @@ div.nav{
     background-color: cadetblue;
     text-align: end;
 }
-/* HEADER */
+/* FINE HEADER */
 
 /* MAIN */
 div.card{
@@ -124,7 +124,20 @@ div.free{
     margin: 0 auto;
     height: 60px;
 }
+/* FINE MAIN */
+/* FOOTER */
+div.black{
+    background-color: #333333;
+    width: 100%;
+    padding: 1rem 0;
+}
 
+div.more{
+    background-color: aquamarine;
+    width: 90%;
+    margin: 0 auto;
+    height: 60px;
+}
 
 
 
@@ -160,6 +173,12 @@ div.free{
         flex-direction: row;
     }
     div.free{
+        background-color: aquamarine;
+        width: 50%;
+        margin: 0 auto;
+        height: 60px;
+    }
+    div.more{
         background-color: aquamarine;
         width: 50%;
         margin: 0 auto;
