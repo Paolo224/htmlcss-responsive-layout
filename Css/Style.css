@@ -5,3 +5,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-align{
+    display: flex;
+    align-items: center;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    background-color: #0084fd;
+    height: 2.5rem;
+}
+
+div.logo{
+    width: 50%;
+    background-color: beige;
+}
+
+div.nav{
+    width: 50%;
+    background-color: cadetblue;
+    text-align: end;
+}
