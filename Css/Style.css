@@ -20,11 +20,17 @@
     align-items: center;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 /* HEADER */
 header{
     width: 100%;
     background-color: #0084fd;
     height: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 div.logo{
@@ -39,11 +45,35 @@ div.nav{
 }
 /* HEADER */
 
+/* MAIN */
+div.card{
+    background-color: #b5ddff;
+    height: 60px;
+    width: 100%
+}
+
+
+
+
+
 /*! RESPONSIVE */
 @media screen and (min-width: 769px){
     .container{
         width: 70%;
         margin: 0 auto;
     }
-    
+}
+
+@media screen and (min-width: 481px){
+    div.cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    div.card{
+        width: calc(100% / 3);
+    }
+    div.cards>.card:first-child{
+        width: calc((100% / 3) * 2);
+    }
 }
