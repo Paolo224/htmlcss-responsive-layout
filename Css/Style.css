@@ -342,10 +342,34 @@ div.about-us-img{
 }
 
 div.free{
-    background-color: aquamarine;
     width: 90%;
     margin: 0 auto;
-    height: 60px;
+    text-align: center;
+}
+
+div.free h1{
+    color: white;
+    font-size: 1rem;
+}
+
+div.free h2{
+    color: #fdc15f;
+    font-size: 2rem;
+}
+
+div.free p{
+    font-size: .9rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+div.free p:first-child{
+    font-size: .55rem;
+}
+#button-started{
+    color: #9792e4;
+    background-color: white;
+    padding: .7rem 2.7rem;
 }
 /* FINE MAIN */
 /* FOOTER */
@@ -437,10 +461,8 @@ div.more{
         padding: 1rem;
     }
     div.free{
-        background-color: aquamarine;
         width: 50%;
         margin: 0 auto;
-        height: 60px;
     }
     div.more{
         background-color: aquamarine;
