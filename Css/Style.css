@@ -85,11 +85,56 @@ div.card{
     width: 100%;
     margin-bottom: 1rem;
     border-radius: .8rem;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1.5rem 2rem 0 2rem;
+    flex-direction: column;
+}
+
+div.card figure{
+    align-items: flex-end;
 }
 
 div.card figure img{
     width: 100%;
+}
+
+div.card div.text-card h2{
+    color: #0084fd;
+}
+
+div.card div.text-card p{
+    color: gray;
+    margin: 1.5rem 0;
+}
+
+div.card div.text-card i{
+    margin-right: .5rem;
+}
+
+div.card div.text-card button{
+    margin-bottom: 2rem;
+}
+
+#blue-button{
+    color: white;
+    background-color: #0084fd;
+    padding: .6rem 3rem;
+    font-size: .9rem;
+}
+
+div.card>h2{
+    color: #0084fd;
+    text-align: center;
+}
+
+div.card>p{
+    color: gray;
+    margin: 1.5rem 0;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+div.card>i{
+    color: #0084fd;
 }
 
 .violet{
@@ -218,6 +263,9 @@ div.more{
         width: 50%;
         margin: 0 auto;
         height: 60px;
+    }
+    div.card{
+        flex-direction: row;
     }
 }
 /* DESKTOP */
