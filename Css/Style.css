@@ -40,13 +40,42 @@ header{
 
 div.logo{
     width: 50%;
-    background-color: beige;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.logo img{
+    width: 3rem;
 }
 
 div.nav{
     width: 50%;
-    background-color: cadetblue;
     text-align: end;
+}
+
+div.nav ul{
+    display: none;
+}
+
+div.nav ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: .8rem;
+    color: white;
+    margin: .3rem;
+}
+
+#button{
+    color: black;
+    background-color: white;
+    border-radius: 33rem;
+    border: none;
+    padding: .4rem .5rem;
+    font-size: .7rem;
+}
+
+div.nav i{
+    color: white;
 }
 /* FINE HEADER */
 
@@ -201,5 +230,11 @@ div.more{
     div.benefit{
         height: 55px;
         width: calc(100% / 3);
+    }
+    div.nav ul{
+        display: inline;
+    }
+    div.nav i{
+        display: none;
     }
 }
