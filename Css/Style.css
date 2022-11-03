@@ -110,6 +110,19 @@ div.card div.text-card i{
     margin-right: .5rem;
 }
 
+div.cards>.card:nth-child(2){
+    text-align: center;
+}
+div.cards>.card:nth-child(3){
+    text-align: center;
+}
+div.cards>.card:nth-child(4){
+    text-align: center;
+}
+div.cards>.card:nth-child(5){
+    text-align: center;
+}
+
 div.card div.text-card button{
     margin-bottom: 2rem;
 }
@@ -135,6 +148,7 @@ div.card>p{
 
 div.card>i{
     color: #0084fd;
+    margin-bottom: 1.5rem;
 }
 
 .violet{
@@ -145,13 +159,65 @@ div.card>i{
 }
 
 div.card-violet{
-    background-color: #b5ddff;
-    height: 60px;
-    width: 100%
+    width: 100%;
 }
 
-div.card-violet{
-    justify-content: center;
+div.card-violet h1{
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+div.card-violet p{
+    color: white;
+    line-height: 1.4rem;
+}
+
+div.card-violet img{
+    width: 100%;
+}
+
+div.square-white{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+div.square-white h1{
+    color: black;
+    text-align: center;
+}
+
+div.square-white p{
+    color: black;
+    text-align: center;
+}
+
+#violet-button{
+    color: black;
+    background-color: #9792e4;
+    padding: 1rem 1.2rem;
+    margin-top: 1rem;
+}
+
+div.testimonial-text{
+    text-align: center;
+    margin-bottom: 1rem;
+    flex-direction: column;
+}
+
+div.testimonial-text p{
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+div.testimonial-text h1{
+    color: #9792e4;
+    margin: .7rem 0;
 }
 
 div.testimonial{
@@ -159,6 +225,17 @@ div.testimonial{
     text-align: center;
     margin-bottom: 1rem;
     flex-direction: column;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+}
+
+div.testimonial p{
+    margin-top: .8rem;
+}
+
+div.img-testimonial img{
+    width: 60%;
 }
 
 h3.benefit{
@@ -166,10 +243,23 @@ h3.benefit{
 }
 
 div.benefit{
-    height: 55px;
     width: 100%;
     background-color: white;
     margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+div.benefit h3{
+    margin: 1rem 0;
+}
+
+#violet-button{
+    background-color: #9792e4;
+    color: white;
+    width: 70%;
+    font-size: 1rem;
+    padding: .6rem 0;
 }
 
 div.benefit-row{
@@ -235,7 +325,25 @@ div.more{
         width: calc(100% / 3);
     }
     div.cards>.card:first-child{
-        width: calc((100% / 3) * 2);
+        width: calc(((100% / 3) * 2) - .5rem);
+        margin-right: .5rem;
+    }
+    div.cards>.card:nth-child(2){
+        width: calc((100% / 3) - .5rem);
+        margin-left: .5rem;
+    }
+    div.cards>.card:nth-child(3){
+        width: calc((100% / 3) - .5rem);
+        margin-right: .5rem;
+    }
+    div.cards>.card:nth-child(4){
+        width: calc((100% / 3) - 1rem);
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    div.cards>.card:nth-child(5){
+        width: calc((100% / 3) - .5rem);
+        margin-left: .5rem;
     }
     div.testimonial{
         flex-direction: row;
@@ -271,7 +379,7 @@ div.more{
 /* DESKTOP */
 @media screen and (min-width: 992px){
     .container{
-        width: 70%;
+        width: 95%;
         margin: 0 auto;
     }
     div.cards-violet{
